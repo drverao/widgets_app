@@ -32,4 +32,10 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
     path: '/animated',
     builder: (context, state) => const AnimatedScreen(),
   ),
+  //ui_controls
+  GoRoute(
+    name: UiControlsScreen.name,
+    path: '/ui-controls',
+    builder: (context, state) => const UiControlsScreen(),
+  ),
 ]);

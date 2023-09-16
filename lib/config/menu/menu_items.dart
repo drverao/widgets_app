@@ -41,4 +41,9 @@ const appMenuItems = <MenuItem>[
       subtitle: 'Contenedor animado',
       icon: Icons.check_box_outline_blank_rounded,
       link: '/animated'),
+  MenuItem(
+      title: 'UI Controls + Titles',
+      subtitle: 'Controles de UI',
+      icon: Icons.car_rental_outlined,
+      link: '/ui-controls'),
 ];
